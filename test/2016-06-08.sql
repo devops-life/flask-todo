@@ -1,0 +1,15 @@
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '清风手游网', 'http://www.vipcn.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '便玩家', 'http://www.bianwanjia.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '友情手机站', 'http://www.yqdown.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '9553下载', 'http://www.9553.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '西西软件园', 'http://www.cr173.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '就去天空', 'http://www.97sky.cn/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '91游戏网', 'http://game.91.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '绿色资源网', 'http://www.downcc.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '天极下载', 'http://mydown.yesky.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '系统天堂', 'http://www.xpgod.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '当下软件园', 'http://www.downxia.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '网侠软件', 'http://www.hackhome.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '绿色先锋', 'http://www.greenxf.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '手机中国', 'http://bbs.cnmo.com/', '1');
+insert into `qinqinbaby_2`.`legou_friend_link` ( `location`, `title`, `link_address`, `is_display`) values ( '1', '信析宝', 'http://www.bizport.cn/', '1');
