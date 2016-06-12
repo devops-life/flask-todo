@@ -12,14 +12,14 @@
     {% endfor %}
 
     <div>
-        <h2>Todo List</h2>
+        <h2>代办列表</h2>
         {% if todos %}
             <table class="table">
                 <thead>
                 <tr>
-                    <th>content</th>
-                    <th>time</th>
-                    <th>operation</th>
+                    <th>内容</th>
+                    <th>时间</th>
+                    <th>动作</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -29,8 +29,8 @@
                             <td>{{ t.content }}</td>
                             <td>{{ t.time.strftime('%H:%M %d-%m-%Y') }}</td>
                             <td>
-                                <a href="/done/{{ t.id }}" class="btn btn-primary">Done</a>
-                                <a href="/delete/{{ t.id }}" class="btn btn-danger">Delete</a>
+                                <a href="/done/{{ t.id }}" class="btn btn-primary">完成</a>
+                                <a href="/delete/{{ t.id }}" class="btn btn-danger">删除</a>
                             </td>
                         </tr>
                     {% else %}
@@ -38,8 +38,8 @@
                             <td id="center">{{ t.content }}</td>
                             <td>{{ t.time.strftime('%H:%M %d-%m-%Y') }}</td>
                             <td>
-                                <a href="/undone/{{ t.id }}" class="btn btn-primary">Undone</a>
-                                <a href="/delete/{{ t.id }}" class="btn btn-danger">Delete</a>
+                                <a href="/undone/{{ t.id }}" class="btn btn-primary">未完成</a>
+                                <a href="/delete/{{ t.id }}" class="btn btn-danger">删除</a>
                             </td>
                         </tr>
 
@@ -48,7 +48,7 @@
                 </tbody>
             </table>
         {% else %}
-            <h3 class="text-info">No todos, please add</h3>
+            <h3 class="text-info">没有代办事项,请添加</h3>
         {% endif %}
 
     </div>
